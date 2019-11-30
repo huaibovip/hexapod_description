@@ -2,7 +2,7 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<robot name="hexapod">
+<robot name="hexapod_description">
   <link name="base_link" />
   <link name="thorax">
     <inertial>
@@ -25,7 +25,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/thorax.STL" />
+          filename="package://hexapod_description/meshes/thorax.STL" />
       </geometry>
       <material
         name="">
@@ -39,7 +39,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/thorax.STL" />
+          filename="package://hexapod_description/meshes/thorax.STL" />
       </geometry>
     </collision>
   </link>
@@ -102,7 +102,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_l.STL" />
+          filename="package://hexapod_description/meshes/coxa_l.STL" />
       </geometry>
       <material
         name="">
@@ -116,7 +116,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_l.STL" />
+          filename="package://hexapod_description/meshes/coxa_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -160,7 +160,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_l.STL" />
+          filename="package://hexapod_description/meshes/femur_l.STL" />
       </geometry>
       <material
         name="">
@@ -174,7 +174,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_l.STL" />
+          filename="package://hexapod_description/meshes/femur_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -218,7 +218,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_l.STL" />
+          filename="package://hexapod_description/meshes/tibia_l.STL" />
       </geometry>
       <material
         name="">
@@ -232,7 +232,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_l.STL" />
+          filename="package://hexapod_description/meshes/tibia_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -310,7 +310,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_l.STL" />
+          filename="package://hexapod_description/meshes/coxa_l.STL" />
       </geometry>
       <material
         name="">
@@ -324,7 +324,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_l.STL" />
+          filename="package://hexapod_description/meshes/coxa_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -368,7 +368,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_l.STL" />
+          filename="package://hexapod_description/meshes/femur_l.STL" />
       </geometry>
       <material
         name="">
@@ -382,7 +382,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_l.STL" />
+          filename="package://hexapod_description/meshes/femur_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -426,7 +426,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_l.STL" />
+          filename="package://hexapod_description/meshes/tibia_l.STL" />
       </geometry>
       <material
         name="">
@@ -440,7 +440,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_l.STL" />
+          filename="package://hexapod_description/meshes/tibia_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -519,7 +519,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_l.STL" />
+          filename="package://hexapod_description/meshes/coxa_l.STL" />
       </geometry>
       <material
         name="">
@@ -533,7 +533,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_l.STL" />
+          filename="package://hexapod_description/meshes/coxa_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -577,7 +577,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_l.STL" />
+          filename="package://hexapod_description/meshes/femur_l.STL" />
       </geometry>
       <material
         name="">
@@ -591,7 +591,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_l.STL" />
+          filename="package://hexapod_description/meshes/femur_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -635,7 +635,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_l.STL" />
+          filename="package://hexapod_description/meshes/tibia_l.STL" />
       </geometry>
       <material
         name="">
@@ -649,7 +649,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_l.STL" />
+          filename="package://hexapod_description/meshes/tibia_l.STL" />
       </geometry>
     </collision>
   </link>
@@ -728,7 +728,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_r.STL" />
+          filename="package://hexapod_description/meshes/coxa_r.STL" />
       </geometry>
       <material
         name="">
@@ -742,7 +742,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_r.STL" />
+          filename="package://hexapod_description/meshes/coxa_r.STL" />
       </geometry>
     </collision>
   </link>
@@ -786,7 +786,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_r.STL" />
+          filename="package://hexapod_description/meshes/femur_r.STL" />
       </geometry>
       <material
         name="">
@@ -800,7 +800,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_r.STL" />
+          filename="package://hexapod_description/meshes/femur_r.STL" />
       </geometry>
     </collision>
   </link>
@@ -844,7 +844,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_r.STL" />
+          filename="package://hexapod_description/meshes/tibia_r.STL" />
       </geometry>
       <material
         name="">
@@ -858,7 +858,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_r.STL" />
+          filename="package://hexapod_description/meshes/tibia_r.STL" />
       </geometry>
     </collision>
   </link>
@@ -937,7 +937,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_r.STL" />
+          filename="package://hexapod_description/meshes/coxa_r.STL" />
       </geometry>
       <material
         name="">
@@ -951,7 +951,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_r.STL" />
+          filename="package://hexapod_description/meshes/coxa_r.STL" />
       </geometry>
     </collision>
   </link>
@@ -995,7 +995,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_r.STL" />
+          filename="package://hexapod_description/meshes/femur_r.STL" />
       </geometry>
       <material
         name="">
@@ -1009,7 +1009,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_r.STL" />
+          filename="package://hexapod_description/meshes/femur_r.STL" />
       </geometry>
     </collision>
   </link>
@@ -1053,7 +1053,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_r.STL" />
+          filename="package://hexapod_description/meshes/tibia_r.STL" />
       </geometry>
       <material
         name="">
@@ -1067,7 +1067,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_r.STL" />
+          filename="package://hexapod_description/meshes/tibia_r.STL" />
       </geometry>
     </collision>
   </link>
@@ -1146,7 +1146,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_r.STL" />
+          filename="package://hexapod_description/meshes/coxa_r.STL" />
       </geometry>
       <material
         name="">
@@ -1160,7 +1160,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/coxa_r.STL" />
+          filename="package://hexapod_description/meshes/coxa_r.STL" />
       </geometry>
     </collision>
   </link>
@@ -1204,7 +1204,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_r.STL" />
+          filename="package://hexapod_description/meshes/femur_r.STL" />
       </geometry>
       <material
         name="">
@@ -1218,7 +1218,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/femur_r.STL" />
+          filename="package://hexapod_description/meshes/femur_r.STL" />
       </geometry>
     </collision>
   </link>
@@ -1262,7 +1262,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_r.STL" />
+          filename="package://hexapod_description/meshes/tibia_r.STL" />
       </geometry>
       <material
         name="">
@@ -1276,7 +1276,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hexapod/meshes/tibia_r.STL" />
+          filename="package://hexapod_description/meshes/tibia_r.STL" />
       </geometry>
     </collision>
   </link>
